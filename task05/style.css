@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fullbody {
+  background-image: url(images/bg-intro-desktop.png);
+  z-index: 0;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  width: 1130px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  padding-top: 300px;
+  font-family: "Poppins", sans-serif;
+}
+.leftcontainer {
+  color: aliceblue;
+  width: 590px;
+  padding: 50px;
+}
+.heading {
+  font-size: 50px;
+}
+.content {
+  margin-top: 30px;
+}
+.rightcontainer {
+  height: 510px;
+}
+.form1 {
+  width: 460px;
+  height: 55px;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-weight: 400;
+}
+.form {
+  width: 460px;
+  height: 55px;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-weight: 400;
+  border-radius: 7px;
+  border: 1px solid hsla(249, 10%, 26%, 0.582);
+}
+
+.form:focus-visible {
+  border: 2px solid black;
+  outline: black;
+}
+.formbox {
+  background-color: white;
+  width: 545px;
+  height: 500px;
+  border-radius: 10px;
+
+  align-items: center;
+}
+.button2,
+.footer {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.button1 {
+  height: 55px;
+  width: 545px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bolder;
+  border-color: red;
+}
+.button1 span {
+  font-weight: initial;
+}
+.button2 {
+  width: 460px;
+  height: 50px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bolder;
+}
+.footer {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.link {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: bolder;
+}

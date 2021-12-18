@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+.drawerimage {
+  width: 290px;
+  height: 280px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  width: 445px;
+  height: 280px;
+  background-color: white;
+  justify-content: center;
+}
+.avatarimage {
+  height: 50px;
+  width: 50px;
+}
+.content .maincontent {
+  font-weight: 900;
+  color: hsl(214, 17%, 51%);
+}
+.content .subcontent {
+  color: hsl(212, 23%, 69%);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 15px;
+  color: ;
+}
+.maincontent {
+  padding: 30px;
+}
+.subcontent {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.avatarimage {
+  border-radius: 50px;
+}
+.shareicon {
+  /* background-color: hsl(212, 23%, 69%);
+  border: 3px black solid;
+  border-radius: 50px; */
+  color: #bbb;
+  position: relative;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(187, 187, 187, 0.507);
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  right: -6px;
+  top: -4px;
+}
+.name {
+  padding-right: 130px;
+}
+.firstname {
+  color: hsl(217, 19%, 35%);
+}
+.date {
+  color: hsl(212, 23%, 69%);
+}
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+.dropupcontent {
+  display: none;
+  position: absolute;
+  background-color: #bbb;
+  bottom: 2rem;
+}
+.dropupcontent a {
+  color: black;
+  padding: 10px 10px;
+  display: block;
+}
+.dropupcontent a :hover {
+  background-color: hsl(214, 17%, 51%);
+}
+.dropup:hover .dropupcontent {
+  display: block;
+}
